@@ -1,0 +1,13 @@
+ar-businesscard.aiv.com.tw
+ip: 210.64.10.36
+user: aivalue
+pass: aiv82857354
+
+
+# 上傳website資料夾至210.64.10.36
+
+sudo docker-compose down
+sudo docker-compose up --build -d
+
+sudo apt update
+sudo apt install nano

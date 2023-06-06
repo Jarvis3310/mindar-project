@@ -1,0 +1,2 @@
+(this.webpackJsonpwebsite=this.webpackJsonpwebsite||[]).push([[12],{707:function(e,t,n){"use strict";n.r(t),n.d(t,"default",(function(){return s}));n(0);var c=n(321),i=n(1);function s(){return Object(i.jsx)(i.Fragment,{children:Object(i.jsx)(c.a,{children:Object(i.jsx)("title",{children:"T-Global \u5100\u9336\u677f"})})})}}}]);
+//# sourceMappingURL=12.d313091f.chunk.js.map

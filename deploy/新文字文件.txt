@@ -1,0 +1,35 @@
+ar-businesscard.aiv.com.tw
+ip: 210.64.10.36
+user: aivalue
+pass: aiv82857354
+
+https://www.maxlist.xyz/2020/01/19/docker-nginx/
+
+Develope:
+>>sudo docker-compose down
+>>sudo docker-compose up --build -d
+
+sudo apt update
+sudo apt install nano
+
+>>cd /etc/nginx/sites-enabled/
+>>sudo nano flaskconfig
+server {
+    listen       80;
+    server_name  ar-businesscard.aiv.com.tw;
+
+    location / {
+        root   /home/aivalue/mindar-project/templates/multi-tracks/;
+        index  index.html index.htm;
+    }
+
+    error_page   500 502 503 504  /50x.html;
+    location = /50x.html {
+        root   html;
+    }
+}
+
+>>sudo nginx -t
+>>sudo nginx -s reload
+>>sudo service nginx start
+>>sudo systemctl status nginx
